@@ -1,0 +1,133 @@
+nav ul li a:target {
+  background-color: white;
+  color: black;
+}
+
+
+nav ul li a.active {
+  background-color: white;
+  color: black;
+}
+
+/* Rest of your existing styles */
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* background-image: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  ); 
+  background-repeat: no-repeat;*/
+  font-family: Arial, sans-serif;
+  /* background-color: purple; */
+}
+.wholeComponent {
+  /* background-color: purple; */
+  z-index: -425425;
+  width: auto;
+  /* height: 100vh; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  height: 45px;
+  margin: auto;
+  margin-top: 0;
+  text-align: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+section {
+  padding: 100px;
+}
+
+.img-about {
+  height: 400px;
+  width: 400px ;
+
+  /* border-radius:  5px 40px 5px; */
+  border-radius: 50%;
+  display: flex;
+  object-fit: cover;
+}
+
+.blur{
+  background-color: #1b1a2ea9 ;
+  transition: all 0.3s ease-out 0s ;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) ;
+  backdrop-filter: blur(15px) ;
+}
+
+
+.buttonsmall{
+  display: none;
+}
+.show{
+  display: block;
+}
+.hide{
+  display:none;
+}
+.menuButton{
+  background-color: transparent;
+  color: white;
+}
+.purple{
+  color: purple;
+}
+
+@media  screen and (max-width: 769px) {
+  .hellonav{
+    background-color: #120f1a;
+  }
+}
+@media screen and (max-width:499px){
+  /* .buttonsmall{
+    display: block;
+  } */
+  .bg-body-tertiary{
+    height: 71px;
+    /* display: flex;
+    flex-direction:column */
+  }
+  .row{
+    align-items: flex-start;
+
+  }
+}
+@media screen and (max-width: 478px){
+  .buttonsmall{
+    display: block;
+  }
+  .blur{
+    height: 120px;
+  }
+}

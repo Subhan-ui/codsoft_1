@@ -1,0 +1,15 @@
+.welcomePage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #120f1a;
+    transition: all 1s ease-out ;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.welcomePage img{
+    height: 200px;
+    width: 200px;
+}

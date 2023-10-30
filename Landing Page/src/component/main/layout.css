@@ -1,0 +1,15 @@
+.layout{
+    overflow-y: hidden;
+    display:flex;
+        flex-direction:column;
+        /* width:100% */
+}
+.component{
+    width: 77vw;
+    margin: auto;
+    height: 90vh;
+    margin-top: 12px;
+    overflow-y: auto;
+    background-color: aliceblue;
+    border-radius: 12px;
+}

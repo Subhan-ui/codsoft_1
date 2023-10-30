@@ -1,0 +1,22 @@
+.Footer{
+    height: 45px;
+}
+.CompleteFooter{
+    background-color: rgba(0, 0, 0, 0.99);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer a{
+    text-decoration: none;
+    margin: 12px;
+}
+.footerCopyright{
+    margin: 0 12px;
+    color: wheat;
+}
+@media screen and (max-width: 460px){
+    .CompleteFooter{
+        flex-direction: column;
+    }
+}

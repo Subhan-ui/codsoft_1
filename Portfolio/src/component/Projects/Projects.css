@@ -1,0 +1,49 @@
+.project{
+    /* font-size: 34px; */
+    /* margin: 0; */
+    /* height: 100vh; */
+    /* margin-top: 23px; */
+    /* margin-top:100px; */
+    /* margin-bottom: 21px;  */
+    line-height: 2rem;
+    overflow-x: hidden;
+    /* position: relative;
+    top: 24px; */
+  }
+  .slide{
+    text-align: center;
+  }
+  
+  .swiper .swiper-wrapper{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 281px;
+    -webkit-box-reflect: below 1px linear-gradient(
+        transparent,transparent,#0006
+    );
+  }
+  
+  .swiper-slide{
+    width: 166% !important;
+  }
+  .swiper{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 130vw;
+    height: 42vh;
+  }
+
+  .projectMain{
+    background-color: #120f1a;
+    color: wheat;
+  }
+  .link1234{
+    text-decoration:none;
+    color:wheat;
+    display: flex;
+    flex: 0;
+    justify-content: center;
+  }
+  
+  

@@ -1,0 +1,99 @@
+.Animation {
+  height: 400px;
+  width: auto;
+}
+.wholeHomeComponent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.itsWholeComponent{
+    background-color: #120f1a;
+    color: wheat;
+}
+
+.findMeOn{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        margin: 34px;
+        margin-bottom: 0;
+}
+    
+.Downloading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%; 
+    display: inline-block;
+  }
+
+  .introPart{
+    width: 50vw;
+    /* min-width: 50vw; */
+    height: 50vh;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } 
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } 
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .heading{
+    line-height: 4rem;
+  }
+
+
+  @media  screen and (max-width: 769px) {
+    .wholeHomeComponent{
+      flex-direction: column-reverse;
+      margin-top: 71px;
+      position: sticky;
+      height: 100vh;
+    }
+  }
+  @media screen and (max-width: 541px){
+    .introPart{
+      width: 100vw;
+    }
+    .Animation{
+      width: 100vw;
+      height: auto;
+    }
+    /* .itsWholeComponent{width: 100vw;} */
+  }

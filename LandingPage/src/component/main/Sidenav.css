@@ -1,0 +1,125 @@
+.sideNav{
+    height: 100vh;
+    background-color: rgb(86, 94, 88);
+    transition: all 0.9s;
+    width:auto;
+    -webkit-transition: all 0.25s;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 90vh;
+
+}
+.link1{
+    text-decoration: none;
+    color: black;
+}
+.drop{
+    background-color:  rgb(86, 78, 88);
+    color: rgba(245, 245, 245, 0.861);
+    cursor: pointer;
+}
+.sideNavUp h4{
+    color: white;
+    font-family: 'Chela One', cursive;
+    font-size: 40px;
+}
+.sideNavUp{
+    height: 70px;
+    background-color:  rgb(86, 78, 88);
+    margin: 0;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky; */
+    
+}
+.downNav{
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.dropdown{
+    height: 70px;
+    margin: 0;
+    /* border-bottom: 1px solid grey; */
+    color: rgba(245, 245, 245, 0.661);
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+
+    }
+    
+.sideNavcont{
+    cursor: pointer;
+    height: 70px;
+    margin: 0;
+    /* border-bottom: 1px solid grey; */
+    color: rgba(245, 245, 245, 0.661);
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+    }
+    .sideNavcont1{
+    height: 70px;
+    margin: 0;
+    /* border-bottom: 1px solid grey; */
+    color: rgba(245, 245, 245, 0.661);
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     justify-content: space-between;
+
+}
+.sideNavcont1 div{
+    height: 70px;
+    margin: 0;
+    /* border-bottom: 1px solid grey; */
+    color: rgba(245, 245, 245, 0.661);
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     
+}
+.sideNavcont:focus{
+    background-color:  rgb(86, 78, 88);
+}
+.sideNavcont h4, .sideNavcont i {
+    margin: 16px;
+  }
+.sideNavcont1 h4, .sideNavcont1 i {
+    margin: 16px;
+  }
+.sideNav h4{
+    margin: 0;
+}
+.sideNavcont:hover,.dropdown:hover, .hover:hover,.sideNavcont1:hover{
+    background-color:  rgb(86, 78, 88);
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+    color: white;
+}
+h3{
+    color: rgba(245, 245, 245, 0.661);
+    
+}
+
+.dropdown h4{
+    margin-left: 51px;
+
+}
+.link{
+    color: rgba(245, 245, 245, 0.661);
+    text-decoration: none;
+}
+.link:hover{
+    color: white;
+    
+}
+
+/* @media only screen and (max-width: 851px) {
+    .sideNav{
+        width: 80vw;
+    }
+} */
